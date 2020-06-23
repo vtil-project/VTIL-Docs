@@ -5,6 +5,7 @@
 
 ## Instruction Set
 
+* [General Information](instruction-set/general-information.md)
 * [Data movement](instruction-set/data-movement/README.md)
   * [MOV](instruction-set/data-movement/mov.md)
   * [MOVSX](instruction-set/data-movement/movsx.md)
@@ -24,6 +25,8 @@
   * [IREM](instruction-set/arithmetic/irem.md)
 * [Bitwise](instruction-set/instructions/README.md)
   * [POPCNT](instruction-set/instructions/popcnt.md)
+  * [BSF](instruction-set/instructions/bsf.md)
+  * [BSR](instruction-set/instructions/bsr.md)
   * [NOT](instruction-set/instructions/not.md)
   * [SHR](instruction-set/instructions/shr.md)
   * [SHL](instruction-set/instructions/shl.md)
