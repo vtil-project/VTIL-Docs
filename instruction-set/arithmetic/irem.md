@@ -11,6 +11,6 @@ description: >-
 | IREM | Reg | Reg/Imm | Reg/Imm | OP1 = \[OP2:OP1\] % OP3 \(Signed\) |
 
 ```cpp
-block->irem(vtil::REG_SP, 0, vtil::REG_SP); // sets REG_SP to 0
+block->irem(REG_SP, 0, REG_SP); // sets REG_SP to 0
 ```
 

@@ -11,6 +11,6 @@ description: >-
 | VPINRM | Reg | Imm | Pins the qword @ memory location for read |
 
 ```cpp
-block->vpinrm(vtil::REG_SP, vtil::make_imm(3ull));
+block->vpinrm(REG_SP, 3ull);
 ```
 

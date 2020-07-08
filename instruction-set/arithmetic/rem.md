@@ -12,6 +12,6 @@ description: >-
 | REM | Reg | Reg/Imm | Reg/Imm | OP1 = \[OP2:OP1\] % OP3 |
 
 ```cpp
-block->rem(vtil::REG_SP, 0, vtil::REG_SP); // sets REG_SP to 0
+block->rem(REG_SP, 0, REG_SP); // sets REG_SP to 0
 ```
 

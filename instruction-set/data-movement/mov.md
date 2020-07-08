@@ -9,7 +9,7 @@ description: Moves an immediate value or register into a register.
 | MOV | Reg | Reg/Imm | OP1 = OP2 |
 
 ```cpp
-block->mov(vtil::REG_SP, 1337);
+block->mov(X86_REG_RAX, 1337);
 ```
 
 

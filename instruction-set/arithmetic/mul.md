@@ -9,6 +9,6 @@ description: Multiplies a register with another register or immediate value.
 | MUL | Reg | Reg/Imm | OP1 = OP1 × OP2 |
 
 ```cpp
-block->mul(vtil::REG_SP, 2);
+block->mul(REG_SP, 2);
 ```
 

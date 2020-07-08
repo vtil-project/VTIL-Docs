@@ -11,6 +11,6 @@ description: >-
 | NEG | Reg | OP1 = -OP1 |
 
 ```cpp
-block->neg(vtil::REG_SP);
+block->neg(REG_SP);
 ```
 

@@ -9,7 +9,9 @@ description: Emits an arbitrary instruction into the instruction stream.
 | VEMIT | Imm | Emits the opcode as is to the final instruction stream |
 
 ```cpp
-// Emits '.' as instruction; see Brainfuck print instructions
-block->vemit('.');
+block->vemit(0xCC);
+block->vemits("int 3")
 ```
+
+
 

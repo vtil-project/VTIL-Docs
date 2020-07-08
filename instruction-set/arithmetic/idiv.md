@@ -11,6 +11,6 @@ description: >-
 | IDIV | Reg | Reg/Imm | Reg/Imm | OP1 = \[OP2:OP1\] / OP3 \(Signed\) |
 
 ```cpp
-block->idiv(vtil::REG_SP, 0, vtil::REG_SP); // sets REG_SP to 1
+block->idiv(REG_SP, 0, REG_SP); // sets REG_SP to 1
 ```
 

@@ -1,7 +1,7 @@
 ---
 description: >-
   Multiplies a register with another register or immediate value and saves the
-  higher 16 bits.
+  higher bits.
 ---
 
 # MULHI
@@ -11,6 +11,6 @@ description: >-
 | MULHI | Reg | Reg/Imm | OP1 = \[OP1 × OP2\] &gt;&gt; N |
 
 ```cpp
-block->mulhi(vtil::REG_SP, 2);
+block->mulhi(REG_SP, 2);
 ```
 

@@ -9,6 +9,7 @@ description: Moves an immediate value or register with sign extension into a reg
 | MOVSX | Reg | Reg/Imm | OP1 = SX\(OP2\) |
 
 ```cpp
-block->movsx(vtil::REG_SP, 1337);
+block->mov(X86_REG_EAX, -1)
+block->movsx(X86_REG_RAX, X86_REG_EAX); // rax = -1ll
 ```
 

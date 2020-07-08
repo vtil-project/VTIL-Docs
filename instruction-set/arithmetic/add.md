@@ -9,7 +9,7 @@ description: Adds a register or immediate value to a register.
 | ADD | Reg | Reg/Imm | OP1 = OP1 + OP2 |
 
 ```cpp
-block->add(vtil::REG_SP, 1);
+block->add(REG_SP, 1);
 ```
 
 

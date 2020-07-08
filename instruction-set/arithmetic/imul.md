@@ -11,7 +11,7 @@ description: >-
 | IMUL | Reg | Reg/Imm | OP1 = OP1 × OP2 \(Signed\) |
 
 ```cpp
-block->imul(vtil::REG_SP, 2);
+block->imul(REG_SP, 2);
 ```
 
 

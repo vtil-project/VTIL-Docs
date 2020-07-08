@@ -12,6 +12,6 @@ description: >-
 
 ```cpp
 // Stores 1337 into [REG_SP+0]
-block->str(vtil::REG_SP, vtil::make_imm(0ull), 1337);
+block->str(REG_SP, 0, 1337);
 ```
 

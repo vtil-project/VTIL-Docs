@@ -9,6 +9,6 @@ description: Pins a register for write. This prevents optimization to optimize t
 | VPINW | Reg | Pins the register for write |
 
 ```cpp
-block->vpinw(x86_reg::X86_REG_AL);
+block->vpinw(X86_REG_AL);
 ```
 
