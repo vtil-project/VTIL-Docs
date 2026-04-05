@@ -1,16 +1,16 @@
 ---
 description: >-
-  Pins the address specified in a register and offset for write. This prevents
-  optimization to optimize through it.
+  Pins a memory location for write using base register, displacement, and size,
+  and prevents optimization across that memory write dependency.
 ---
 
 # VPINWM
 
-| Instruction | Operand 1 | Operand 2 | Description |
-| :--- | :--- | :--- | :--- |
-| VPINWM | Reg | Imm | Pins the qword @ memory location for write |
+| Instruction | Operand 1 | Operand 2 | Operand 3 | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| VPINWM | Reg | Imm | Imm | Pins the memory location for write, with size = Operand 3 |
 
 ```cpp
-block->vpinwm(REG_SP, 3ull);
+block->vpinwm(REG_SP, 3ull, 64);
 ```
 

@@ -1,5 +1,5 @@
 ---
-description: Pins a register for write. This prevents optimization to optimize through it.
+description: Pins a register for write and prevents optimization across that write dependency.
 ---
 
 # VPINW

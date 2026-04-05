@@ -10,7 +10,7 @@ description: Emits an arbitrary instruction into the instruction stream.
 
 ```cpp
 block->vemit(0xCC);
-block->vemits("int 3")
+block->vemits("int 3");
 ```
 
 

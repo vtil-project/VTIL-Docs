@@ -1,5 +1,5 @@
 ---
-description: Pins a register for read. This prevents optimization to optimize through it.
+description: Pins a register for read and prevents optimization across that read dependency.
 ---
 
 # VPINR
@@ -9,6 +9,6 @@ description: Pins a register for read. This prevents optimization to optimize th
 | VPINR | Reg | Pins the register for read |
 
 ```cpp
-block->vpinr(x86_REG_AL);
+block->vpinr(X86_REG_AL);
 ```
 
